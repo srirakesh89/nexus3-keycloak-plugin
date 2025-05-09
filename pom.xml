@@ -209,7 +209,12 @@
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/flytreeleft/nexus3-keycloak-plugin</url>
+            <url>http://54.161.254.219:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
+         <releasesRepository>
+            <id>github</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>http://54.161.254.219:8081/repository/maven-releases/</url>
+         </releasesRepository>
     </distributionManagement>
 </project>
